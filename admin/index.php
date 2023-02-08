@@ -1,6 +1,7 @@
 <?php
 session_start();
 require_once('../class/Survey.php');
+ini_set('display_errors','off');
 if($_SESSION['auth'] == True){
 	header('Location: results.php');
 }
