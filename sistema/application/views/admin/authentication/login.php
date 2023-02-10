@@ -8,7 +8,7 @@ echo viewHelper::getViewTestTag('login');
 
 ?>
 <noscript>If you see this you have probably JavaScript deactivated. LimeSurvey does not work without Javascript being activated in the browser!</noscript>
-<div class="container-fluid welcome">
+<div class="container-fluid welcome" style="display:none">
     <div class="row text-center">
         <div id="login-panel">
             <div class="panel panel-primary login-panel" id="panel-1">
