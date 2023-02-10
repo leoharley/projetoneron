@@ -56,7 +56,8 @@
     <?php $this->widget('ext.LimeScript.LimeScript'); ?>
     <?php //$this->widget('ext.LimeDebug.LimeDebug'); ?>
 </head>
-<body>
+<?php echo $_SERVER['PHP_SELF']; ?>
+<body style="background-image: url('https://pacefit.com.br/wp-content/uploads/2019/06/alimentacao-e-exercicios-fisicos.jpg');height: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;">
     <div id="beginScripts">
         <###begin###>
     </div>
