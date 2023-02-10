@@ -5,7 +5,7 @@
 
 
 ## About
-Limesurvey is the number one open-source survey software.
+Limesurvey  the number one open-source survey software.
 
 Advanced features like branching and multiple question types make it a valuable partner for survey-creation.
 
