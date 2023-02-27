@@ -97,7 +97,7 @@
 
 
             <!-- Admin notification system -->
-            <?php echo $adminNotifications; ?>
+            <?php //echo $adminNotifications; ?>
 
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" ><span class="icon-user" ></span> <?php echo Yii::app()->session['user'];?> <span class="caret"></span></a>
