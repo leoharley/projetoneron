@@ -102,7 +102,7 @@ echo viewHelper::getViewTestTag('login');
                                 }
 
 
-                                echo CHtml::label(gT('Language'), 'loginlang');
+                                echo //CHtml::label(gT('Language'), 'loginlang');
                                 
                                 $this->widget('yiiwheels.widgets.select2.WhSelect2', array(
                                     'name' => 'loginlang',
