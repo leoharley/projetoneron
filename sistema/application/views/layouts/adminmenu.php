@@ -76,7 +76,7 @@
             </li>
 
             <!-- Help menu -->
-            <?php $this->renderPartial( "/admin/super/_help_menu", []); ?>
+            <?php //$this->renderPartial( "/admin/super/_help_menu", []); ?>
             
             <!-- Configuration menu -->
             <?php $this->renderPartial( "/admin/super/_configuration_menu", $dataForConfigMenu ); ?>
