@@ -25,11 +25,11 @@ echo viewHelper::getViewTestTag('index');
 ?>
 
 <!-- Welcome view -->
-<div class="container-fluid welcome full-page-wrapper">
+<div class="container-fluid welcome full-page-wrapper"  style="margin-right: 40px; margin-left: 40px">
 
     <!-- Logo & Presentation -->
     <?php if ($bShowLogo) :?>
-        <div class="row" style="margin-right: 40px; margin-left: 40px">
+        <div class="row">
             <div class="jumbotron" id="welcome-jumbotron">
                 <img alt="logo" src="<?php echo LOGO_URL;?>" id="lime-logo"  class="profile-img-card img-responsive center-block" />
                <!-- <p class="hidden-xs custom custom-margin top-25" ><?php //echo PRESENTATION; // Defined in AdminController?></p> -->
