@@ -84,7 +84,7 @@ echo viewHelper::getViewTestTag('login');
                                     echo $blockData->getContent();
                                 }
 
-                                $aLangList = getLanguageDataRestricted(true);
+                              /*  $aLangList = getLanguageDataRestricted(true);
                                 $languageData = array();
 
                                 $reqLang = App()->request->getParam('lang');
@@ -99,10 +99,10 @@ echo viewHelper::getViewTestTag('login');
                                 foreach ( $aLangList as $sLangKey => $aLanguage)
                                 {
                                     $languageData[$sLangKey] =  html_entity_decode($aLanguage['nativedescription'], ENT_NOQUOTES, 'UTF-8') . " - " . $aLanguage['description'];
-                                }
+                                } */
 
 
-                                echo //CHtml::label(gT('Language'), 'loginlang');
+                                /*echo CHtml::label(gT('Language'), 'loginlang');
                                 
                                 $this->widget('yiiwheels.widgets.select2.WhSelect2', array(
                                     'name' => 'loginlang',
@@ -113,7 +113,7 @@ echo viewHelper::getViewTestTag('login');
                                             'id' => 'loginlang'
                                         ),
                                     )
-                                ));
+                                ));*/
                                 ?>
 
                                 <?php   if (Yii::app()->getConfig("demoMode") === true && Yii::app()->getConfig("demoModePrefill") === true)
