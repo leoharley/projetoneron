@@ -32,7 +32,7 @@ echo viewHelper::getViewTestTag('index');
         <div class="row">
             <div class="jumbotron" id="welcome-jumbotron">
                 <img alt="logo" src="<?php echo LOGO_URL;?>" id="lime-logo"  class="profile-img-card img-responsive center-block" />
-                <p class="hidden-xs custom custom-margin top-25" ><?php echo PRESENTATION; // Defined in AdminController?></p>
+               <!-- <p class="hidden-xs custom custom-margin top-25" ><?php //echo PRESENTATION; // Defined in AdminController?></p> -->
             </div>
         </div>
     <?php endif;?>
@@ -119,8 +119,9 @@ echo viewHelper::getViewTestTag('index');
     ", LSYii_ClientScript::POS_POSTSCRIPT);
     ?>
     <!-- Last visited survey/question -->
+   
     <?php if ($bShowLastSurveyAndQuestion && ($showLastSurvey || $showLastQuestion)) : // bShowLastSurveyAndQuestion is the homepage setting, showLastSurvey & showLastQuestion are about if infos are available ?>
-        <div class="row text-right">
+        <div class="row text-right" style="display:none!important">
             <div class="col-lg-9 col-sm-9  ">
                 <div class='pull-right'>
                 <?php if ($showLastSurvey) :?>
