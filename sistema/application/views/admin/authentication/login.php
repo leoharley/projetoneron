@@ -17,16 +17,16 @@ echo viewHelper::getViewTestTag('login');
                 <div class="panel-body">
                     <div class="row">
                           <img alt="logo" id="profile-img" class="profile-img-card center-block" src="<?php echo LOGO_URL;?>" />
-                             <p><?php eT("Administration");?></p>
+                             <!--<p><?php //eT("Administration");?></p>-->
                     </div>
                 </div>
 
                 <!-- Action Name -->
-                <div class="row login-title login-content">
+              <!--<div class="row login-title login-content">
                       <div class="col-lg-12">
-                       <h3><?php eT("Log in");?></h3>
+                       <h3><?php //eT("Log in");?></h3>
                     </div>
-                </div>
+                </div>-->
 
                 <!-- Form -->
                 <?php echo CHtml::form(array('admin/authentication/sa/login'), 'post', array('id'=>'loginform', 'name'=>'loginform'));?>
